@@ -15,3 +15,8 @@ Then the probabilities are normalized with the normalize function.
 Finally, the robot moves to a new space on the board, and the probabilities are updated appropriately.
 
 Each function is run ten-thousand times. You can adjust the number of times by changing the value in the iterations variable.
+
+
+daysBetweenDates:  Define a daysBetweenDates procedure that would produce the
+# correct output if there was a correct nextDay procedure.
+#
