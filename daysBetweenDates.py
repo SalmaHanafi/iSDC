@@ -43,4 +43,8 @@ def daysBetweenDates(year1, month1, day1, year2, month2, day2):
         days = days + 1
         date = nextDay(date[0], date[1], date[2]) 
         condition = date1BeforeDate2(date[0], date[1], date[2], year2, month2, day2)
+    print(days)    
     return days
+
+#test
+daysBetweenDates(2020,6,1,2020,6,20)
